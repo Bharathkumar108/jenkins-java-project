@@ -72,7 +72,9 @@
     <!-- NEXUS DEPLOYMENT -->
     <!-- ===================== -->
     <distributionManagement>
-
-        <snapshotRepository>
-            <id>nexusRepo</id>
-            <url>http://13.233.23
+    <snapshotRepository>
+        <id>snapshots</id>
+        <url>http://13.233.23.XXX:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+</distributionManagement>
+</project>
